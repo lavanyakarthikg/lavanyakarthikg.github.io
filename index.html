@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lavanya Karthikeyan | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <!-- FontAwesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
   <nav class="navbar">
     <div class="logo">Lavanya</div>
-    <ul class="nav-links">
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -29,15 +35,16 @@
         <h1 class="title">LAVANYA's</h1>
         <h2 class="subtitle">PORTFOLIO</h2>
       </div>
-      
+
       <div class="home-row hidden">
         <div class="role-card">
-           <div class="search-bar">
-             <span class="icon">📸 | 🔍 | 👩🏻‍💻</span>
-           </div>
-           <h3>UI UX DESIGNER</h3>
-           <p>I'm Lavanya, a passionate UI/UX Designer focused on creating intuitive, user-centered digital experiences. I blend visual clarity with functional design to craft products.</p>
-           <a href="#about" class="btn btn-next">Next</a>
+          <div class="search-bar">
+            <span class="icon">📸 | 🔍 | 👩🏻‍💻</span>
+          </div>
+          <h3>UI UX DESIGNER</h3>
+          <p>I'm Lavanya, a passionate UI/UX Designer focused on creating intuitive, user-centered digital experiences.
+            I blend visual clarity with functional design to craft products.</p>
+          <a href="#about" class="btn btn-next">Next</a>
         </div>
         <div class="home-image">
           <img src="assets/her.png" alt="Lavanya 3D Avatar" class="floating-avatar">
@@ -48,22 +55,25 @@
     <!-- About Section -->
     <section id="about" class="section about-section">
       <div class="section-header hidden" style="margin-bottom: 40px;">
-         <h2>About Me</h2>
+        <h2>About Me</h2>
       </div>
       <div class="about-container hidden">
-         <div class="about-text-card">
-           <div class="tab">My Story</div>
-           <p>I am a detail-oriented <span class="highlight">UI/UX Designer</span> with a strong foundation in <span class="highlight-alt">visual design</span>, wireframing, and prototyping.</p>
-           <p style="margin-top: 15px;">I thrive on transforming complex, ambiguous ideas into <span class="highlight">clean, user-friendly interfaces</span> that not only look beautiful but also solve real user problems and drive engagement.</p>
-         </div>
-         <div class="about-image-card">
-           <img src="assets/about_photo.jpg" alt="Lavanya Original Photo">
-         </div>
-         <div class="about-actions">
-           <a href="lavanya_UI UX designer_resume.pdf" class="btn btn-primary">Download Resume</a>
-           <a href="#skills" class="btn btn-outline">Tools</a>
-           <a href="#work" class="btn btn-next">Next</a>
-         </div>
+        <div class="about-text-card">
+          <div class="tab">My Story</div>
+          <p>I am a detail-oriented <span class="highlight">UI/UX Designer</span> with a strong foundation in <span
+              class="highlight-alt">visual design</span>, wireframing, and prototyping.</p>
+          <p style="margin-top: 15px;">I thrive on transforming complex, ambiguous ideas into <span
+              class="highlight">clean, user-friendly interfaces</span> that not only look beautiful but also solve real
+            user problems and drive engagement.</p>
+        </div>
+        <div class="about-image-card">
+          <img src="assets/about_photo.jpg" alt="Lavanya Original Photo">
+        </div>
+        <div class="about-actions">
+          <a href="lavanya_UI UX designer_resume.pdf" class="btn btn-primary">Download Resume</a>
+          <a href="#skills" class="btn btn-outline">Tools</a>
+          <a href="#work" class="btn btn-next">Next</a>
+        </div>
       </div>
     </section>
 
@@ -71,66 +81,68 @@
     <section id="skills" class="section skills-section">
       <div class="skills-header-area hidden" style="text-align: center;">
         <div class="skills-avatar-container">
-           <img src="assets/skills_avatar.png" alt="Working Avatar" class="round-avatar">
-           <div class="hover-text">Tools & Techstacks</div>
+          <img src="assets/skills_avatar.png" alt="Working Avatar" class="round-avatar">
+          <div class="hover-text">Tools & Techstacks</div>
         </div>
       </div>
       <div class="skills-grid hidden">
-         <div class="skill-category">
-           <h3>UI Skills</h3>
-           <div class="skill-tags">
-             <span>Figma</span>
-             <span>Photoshop</span>
-             <span>Canva</span>
-             <span>Notion</span>
-           </div>
-         </div>
-         <div class="skill-category">
-           <h3>UX Skills</h3>
-           <div class="skill-tags">
-             <span>Wireframing</span>
-             <span>Prototyping</span>
-             <span>User Research</span>
-             <span>Usability Testing</span>
-           </div>
-         </div>
-         <div class="skill-category">
-           <h3>Soft Skills</h3>
-           <div class="skill-tags">
-             <span>Communication</span>
-             <span>Problem Solving</span>
-             <span>Teamwork</span>
-             <span>Adaptability</span>
-           </div>
-         </div>
-         <div class="skill-category tech-skills">
-           <h3>Tech Skills</h3>
-           <div class="skill-tags">
-             <span>HTML</span>
-             <span>CSS</span>
-             <span>JavaScript</span>
-           </div>
-         </div>
+        <div class="skill-category">
+          <h3>UI Skills</h3>
+          <div class="skill-tags">
+            <span>Figma</span>
+            <span>Photoshop</span>
+            <span>Canva</span>
+            <span>Notion</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>UX Skills</h3>
+          <div class="skill-tags">
+            <span>Wireframing</span>
+            <span>Prototyping</span>
+            <span>User Research</span>
+            <span>Usability Testing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span>Communication</span>
+            <span>Problem Solving</span>
+            <span>Teamwork</span>
+            <span>Adaptability</span>
+          </div>
+        </div>
+        <div class="skill-category tech-skills">
+          <h3>Tech Skills</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Work Section -->
     <section id="work" class="section work-section">
       <div class="section-header hidden" style="margin-bottom: 40px;">
-         <h2>My Work</h2>
+        <h2>My Work</h2>
       </div>
       <div class="projects-container">
-        
+
         <div class="project-card hidden">
           <div class="project-info">
             <h3>Quality Pixels</h3>
-            <p>Quality Pixels transforms ordinary screens into visual experiences by offering a curated collection of high-resolution wallpapers ready for instant download.</p>
+            <p>Quality Pixels transforms ordinary screens into visual experiences by offering a curated collection of
+              high-resolution wallpapers ready for instant download.</p>
             <div class="project-tags">
               <span>UI Design</span>
               <span>Mobile App</span>
               <span>Figma</span>
             </div>
-            <a href="#" target="_blank" class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
+            <a href="https://www.qualitypixels.in" target="_blank" class="btn btn-outline"
+              style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
           </div>
           <div class="project-image">
             <img src="assets/project_1.png" alt="Quality Pixels App">
@@ -140,13 +152,15 @@
         <div class="project-card hidden">
           <div class="project-info">
             <h3>Alan Trackz</h3>
-            <p>Alan Trackz enables users to monitor their income and expenses in real-time, providing clear insights and simplified budgeting for smarter financial decisions.</p>
+            <p>Alan Trackz enables users to monitor their income and expenses in real-time, providing clear insights and
+              simplified budgeting for smarter financial decisions.</p>
             <div class="project-tags">
               <span>Mobile App</span>
               <span>UX Research</span>
               <span>Prototyping</span>
             </div>
-            <a href="#" target="_blank" class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
+            <a href="https://www.figma.com/design/6v0MZaE5HkVcXGqbwcMW7H/Expense-Tracker?m=auto&t=YnSNYErhuczirc9g-6"
+              target="_blank" class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
           </div>
           <div class="project-image">
             <img src="assets/project_2.png" alt="Alan Trackz App">
@@ -156,16 +170,36 @@
         <div class="project-card hidden">
           <div class="project-info">
             <h3>Ping Me</h3>
-            <p>Ping Me enables users to send messages, create conversations, and communicate instantly through a simple and user-friendly mobile interface.</p>
+            <p>Ping Me enables users to send messages, create conversations, and communicate instantly through a simple
+              and user-friendly mobile interface.</p>
             <div class="project-tags">
               <span>UI Design</span>
               <span>Mobile App</span>
               <span>Prototyping</span>
             </div>
-            <a href="#" target="_blank" class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
+            <a href="https://github.com/anbuchelvanvk/Chat-Application-Firebase-v1" target="_blank"
+              class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
           </div>
           <div class="project-image">
             <img src="assets/project_3.png" alt="Ping Me App">
+          </div>
+        </div>
+        <div class="project-card hidden">
+          <div class="project-info">
+            <h3>Zunova</h3>
+            <p>Zunova is an online store UI Design for clothings and wearables, it is a UI design project done for a
+              school assignment. This project helped me understand the basics of UI design and how to create a
+              user-friendly interface.</p>
+            <div class="project-tags">
+              <span>UI Design</span>
+              <span>Mobile App</span>
+              <span>Figma</span>
+            </div>
+            <a href="https://www.figma.com/design/36vpAsThi4jZIo17L4hGTn/Untitled?m=auto&t=YnSNYErhuczirc9g-6"
+              target="_blank" class="btn btn-outline" style="margin-top: 15px; font-size: 0.8rem;">View Project</a>
+          </div>
+          <div class="project-image">
+            <img src="assets/project_4.jpg" alt="Zunova App">
           </div>
         </div>
 
@@ -176,19 +210,19 @@
     <section id="contact" class="section contact-section">
       <div class="contact-card hidden">
         <div class="contact-header">
-           <span class="tab">Contact</span>
-           <h2>Let's Connect</h2>
+          <span class="tab">Contact</span>
+          <h2>Let's Connect</h2>
         </div>
         <p>UI/UX Designer crafting meaningful digital experiences.</p>
         <span class="availability">🟢 Available for freelance</span>
-        
+
         <div class="social-links">
-           <a href="https://github.com" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
-           <a href="https://instagram.com" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
-           <a href="mailto:lavanyakarthik1911@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
-           <a href="https://linkedin.com" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:lavanyakarthik1911@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
         </div>
-        
+
         <a href="mailto:lavanyakarthik1911@gmail.com" class="btn btn-primary hire-btn">Hire Me</a>
       </div>
       <div class="contact-image hidden">
@@ -199,4 +233,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
